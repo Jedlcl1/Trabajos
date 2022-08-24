@@ -1,32 +1,127 @@
-
-#nombre{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding-top: .3%;
-    padding-left: 30%;
-    display: inline-block;
+body{
+    background-color:aliceblue;
+    padding: 0 auto;
+    margin: 0;
 }
-#perfil{
-    margin-top: 16%;    
-    padding-left: 0%;
-    display: inline-block;
-    background-color: bisque;
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 *{
-    background-color: #f2f2f2;
-}
-.imagen{
-    background-color: bisque;
+    margin-bottom: 26%;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-/* {
-    background-color: azure;
-    background-color: #f2f2f2;
-}*/
-img{
-    width: 12%;
-    padding-top: 3%;
-    padding-left: 3%;
-    background-color: bisque;
+#fondo{
     display: inline-block;
+    background-color: #FFFFFF;
+    position: absolute;
+    width: 20%;
+    height: 200%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    margin-left: 21%;
+    margin-top: 3%;
+}
+
+#fondo2{
+    display: inline-block;
+    background-color: #e7e7e7;
+    position: absolute;
+    width: 40%;
+    height: 200%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    margin-left: 41%;
+    margin-top: 3%;
+    text-align: center;
+    
+}
+
+#yo{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 8%;
+    margin-bottom: 0;
+    border-radius: 50%;
+}
+
+h2{
+    text-align: center;
+    margin: 0;
+    margin-right: 1%;
+    margin-top: 2%;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0;
+}
+
+#nombre{
+    display: inline-block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 5%;
+}
+
+#info{
+    margin-top: 1%;
+    margin-left: 3%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+    margin-bottom: 0;
+}
+#iconos{
+    margin-top: 3%;
+    margin-bottom: 0;
+    margin-left: 5%;
+    margin-right: 0;
+    width: 10%;
+    float: left;
+}
+
+#iconos1{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-left: 5%;
+    margin-right: 0;
+    width: 10%;
+    float: left;
+}
+
+#iconos2{
+    width: 10%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 3%;
+    margin-bottom: 0;
+}
+
+#iconos3{
+    width: 10%;
+    float: left;
+    margin-top: 0%;
+    margin-left: 5%;
+    margin-bottom: 0%;
+}
+
+#correo{
+    margin-left: 2%;
+}
+
+#linkedin{
+    
+    margin-left: 3%;
+}
+
+#numero{
+    margin-left: 18%;
+}
+
+p{
+    margin: 5%;
 }
