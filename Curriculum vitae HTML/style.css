@@ -66,6 +66,7 @@ h2{
     display: inline-block;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: 5%;
+    margin-bottom: 0;
 }
 
 #info{
@@ -124,4 +125,108 @@ h2{
 
 p{
     margin: 5%;
+}
+
+#carrera{
+    margin-left: 5%;
+    margin-top: 3%;
+    margin-bottom: 0;
+    font-size: 1.3em;
+}
+
+#borde{
+    border: 1px solid black;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 3%;
+    margin-bottom: 0;
+}
+
+#borde1{
+    border: 1px solid black;
+    width: 85%;
+    margin-left: 5%;
+    margin-top: 3%;
+    margin-bottom: 0;
+}
+
+#borde2{
+    border: 1px solid black;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 3%;
+    margin-bottom: 0;
+}
+#borde3{
+    border: 2px solid black;
+    width: 23%;
+    margin-left: 2%;
+    margin-right: 0;
+    margin-top: 7%;
+    margin-bottom: 0;
+    float: left;
+}
+
+#formacion{
+    margin-top: 4%;
+    margin-bottom: 0%;
+    margin-left: 2%;
+    margin-right: 0%;
+    float: left;
+    font-size: 1.6em;
+}
+
+#borde4{
+    border: 2px solid black;
+    width: 23%;
+    margin-left: 0%;
+    margin-right: 5%;
+    margin-top: 7%;
+    margin-bottom: 0%;
+    float: right;
+}
+
+#NombreEsc{
+    margin-top: 4%;
+    margin-bottom: 0%;
+    margin-left: 2%;
+    margin-right: 0%;
+    float: left;
+    font-size: 1.3em;
+}
+
+#carrera1{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 2%;
+    margin-right: 0%;
+    float: left;
+    font-size: 1em;
+}
+
+#año{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 2%;
+    margin-right: 0%;
+    float: left;
+    font-size: 1em;
+}
+
+#conocimiento{
+    margin-top: 3%;
+    margin-bottom: 0%;
+    margin-left: 2%;
+    margin-right: 0%;
+    float: left;
+    font-size: 1.3em;
+}
+
+#año1{
+    margin-top: 4%;
+    margin-bottom: 0%;
+    margin-left: 2%;
+    margin-right: 0%;
+    float: left;
+    font-size: 1em;
 }
